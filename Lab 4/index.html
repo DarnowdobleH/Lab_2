@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Tarea
+    </title>
+</head>
+<body>
+    <fieldset>
+        <legend>Detalles de la foto</legend>
+        <table>
+            <thead>
+                <tr>
+                    <td colspan="2">
+                        <label for="titulo">Título:<br></label>
+                        <input type="text" id="titulo" name="titulo">
+                    </td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="2"><br> Descripción <br /> <textarea rows="6" cols='59'></textarea> <br /></td>
+                </tr>
+                <tr>
+                    <td><br>Continente<br>
+                        <select name='Contiente'>
+                            <option value='Escoger Contiente'>Escoger continente</option>
+                            <option value='África'>Africa</option>
+                            <option value='América'>América</option>
+                            <option value='Ocenía'>Oceanía</option>
+                            <option value='Europa'>Europa</option>
+                            <option value='Asia'>Asia</option>
+                        </select>
+                    </td>
+                    <td>
+                        Copyright?<br>
+                        <input type='radio' name='Copyright' value='CopyrightTD'> Todos los derechos reservados<br>
+                        <input type='radio' name='Copyright' value='CopyrightCC'> Creative Commons
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p><br>País<br>
+                            <select name='País'>
+                                <option value='Escoger Contiente'>País</option>
+                                <option value='México'>Mexico</option>
+                                <option value='Canada'>Canada</option>
+                                <option value='Estados Unidos'>Estados Unidos</option>
+                            </select><br>
+                        </p>
+                        <label for="ciudad">Ciudad<br></label>
+                        <input list="ciudades" id="ciudad" name="ciudad">
+    
+                        <datalist id="ciudades">
+                            <option value="Calgary">
+                            <option value="Montreal">
+                            <option value="Toronto">
+                            <option value="Vancouver">
+                        </datalist>
+                    </td>
+                    <!--fila-->
+                    <td>
+                        Licencias Creative Commons<br>
+                        <input type='checkbox' name='License' value='Atribucion'> Atribución
+                        <br><input type='checkbox' name='License' value='NComercial'> No comercial<br>
+                        <input type='checkbox' name='License' value='NoTD'> No hay trabajos derivativos
+                        <br><input type='checkbox' name='License' value='CompartirPI'> Compartir por igual<br>
+                    </td>
+                </tr>
+                <tr>
+                    <td><br>
+                        <p>Acepto la licencia de software <input type='checkbox' name='acepto' value='aceptolicencia'></p>
+                        <br>
+                    </td>
+                    <!--fila5 celda 2 no hay nada-->
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><label for="numero">
+                            <p>Califica esta foto: </p>
+                        </label>
+                        <input type="number" id="numero" name="numero">
+                    </td>
+                    <td>Fecha de toma:<br> <input type="date"> <br /></td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Colección de color:</p><br>
+                        <input type="color"> <br />
+                    </td>
+                    <td><br><br>Hora de toma:<br><input type="time"> <br /></td>
+                </tr>
+                <tr>
+                    <td> <br>
+                        <input type="submit" value="Enviar"> <input type="reset" value="Limpiar">
+    
+                        </select>
+                    </td>
+                    <!--no hay nada en celda 2-->
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    
+    </fieldset>  
+</body>
+</html>
