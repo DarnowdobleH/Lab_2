@@ -1,0 +1,134 @@
+
+html,body{
+margin: 5px;
+padding: 5px;
+height:888px;
+background-image:url('https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.geocities.ws%2Fdopeycodes%2Fbackgrounds%2Fstar-pibl.gif&f=1&nofb=1&ipt=0dc4fa4ea7eb6f09d13638ee8e33c5113913ecb677a41d1e31aae72fc34bdc93&ipo=images');
+
+background-color:#79fff1;
+/*font-family: 'Gothic'; sans-serif*/
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 13px;
+color:#79fff1;
+text-align:justify;
+letter-spacing: 1px;
+
+/* Your dividers! */
+
+
+#titulo_footer{
+    letter-spacing: 55px;
+    text-align: center;
+}
+
+}
+#leftie
+ {
+  background-image: url('https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.geocities.ws%2Fdopeycodes%2Fbackgrounds%2Fstars-publ.bmp&f=1&nofb=1&ipt=a944143c436328695b88ff348d4f7ed730507baad0fcacf633204a5e4ad9a7e4&ipo=images');
+    width:350px;  
+    height:100%;
+    margin: 5px; 
+    float:left;
+    border: groove 3px white;
+}
+#rightie
+ {
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.geocities.ws%2Fdopeycodes%2Fbackgrounds%2Fstars-publ.bmp&f=1&nofb=1&ipt=a944143c436328695b88ff348d4f7ed730507baad0fcacf633204a5e4ad9a7e4&ipo=images');
+    width:350px;  
+        height:100%;
+    margin: 5px; 
+    float:right;
+    border: groove 3px white;
+    
+
+
+ }#middle
+ {
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.geocities.ws%2Fdopeycodes%2Fbackgrounds%2Fgs-bu.gif&f=1&nofb=1&ipt=c143c1669c7777921afbb2d36a7639b500e1d44d7b61930db2e81ceeb3c2f49f&ipo=images');
+    width:650PX;
+    margin:20px;
+    float:center;
+    border: groove 3px white;
+   
+/* Your navigation bar! */
+
+}
+
+nav{
+        height: 100px;
+        max-width: 100%;
+    margin: auto;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        font-size:90px;
+        font-family:'gothic';
+        
+    }
+
+ul {
+            display: flex;
+            padding: 0;
+               margin: 0;
+                list-style-type: none;
+                justify-content: space-evenly;
+                background-image:url('https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.geocities.ws%2Fdopeycodes%2Fbackgrounds%2Fstar-pibl.gif&f=1&nofb=1&ipt=0dc4fa4ea7eb6f09d13638ee8e33c5113913ecb677a41d1e31aae72fc34bdc93&ipo=images');
+}
+li {
+  padding-top: 10px;
+}
+
+li a {
+  display: block;
+  color: white;
+   padding: 14px 16px;
+  text-align: center;
+  text-decoration: none;
+  font-size:30px;
+  font-family:'gothic';
+}
+
+li a:hover {
+   background-image: url('https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fblog.geocities.institute%2Fwp-content%2Fuploads%2Fcopyrightsunshiney.jpg&f=1&nofb=1&ipt=9bbb638f37b00ed1e4dedd55bee2ca7bb6432db690d5ef47f141c83bb970804c&ipo=images');
+}
+
+a:link {
+  color:white ;
+  background-color: transparent;
+  text-decoration: none;
+   
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+   
+}
+
+a:hover {
+  color: #00033c;
+  background-color: transparent;
+  text-decoration: underline;
+  
+}
+
+a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+  
+    /* Your footer! */
+}
+footer
+ {
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.geocities.ws%2Fdopeycodes%2Fbackgrounds%2Fgs-bu.gif&f=1&nofb=1&ipt=c143c1669c7777921afbb2d36a7639b500e1d44d7b61930db2e81ceeb3c2f49f&ipo=images');
+    width:650PX;
+    margin:20px;
+    padding:5px;
+    float:center;
+    border: groove 3px white;  
+}
+p {
+   padding:10px;
+   text-decoration: none;
+}
