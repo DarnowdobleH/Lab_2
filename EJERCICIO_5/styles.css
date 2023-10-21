@@ -1,0 +1,51 @@
+#barra_de_navegacion{
+  height: 75px;
+  background-color: red;
+}
+
+#encabezado{
+  height: 400px;
+  background-color: orange;
+  
+}
+
+
+#contenido {
+
+  margin: 75px 100px ;
+  height: 500px;
+  background-color: yellow;
+
+  display: flex;
+  flex-direction: column; /* Dividir en dos partes horizontales */
+
+}
+
+#cuadro_verde_bandera{
+  height: 100px;
+  
+  flex: 1; /* Divide el espacio en dos partes iguales */
+
+  background-color: green;
+  margin-bottom: 75px;
+}
+
+
+#cuadro_verde_lima{
+  height: 400px;
+  flex: 1; /* Divide el ancho en dos partes iguales */
+  background-color: lime;
+}
+
+
+
+
+#suscripcion{
+  height: 400px;
+  background-color: gray;
+}
+
+#pie_de_pagina{
+  height: 100px;
+  background-color: black;
+}
