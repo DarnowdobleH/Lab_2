@@ -1,0 +1,103 @@
+h1,h1,h3,p,body,div {
+    margin: 0;
+    padding: 0;
+    font-family: Six Caps;
+
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 200px;
+    width: 30%;
+    margin-top: 0;
+    padding: 0;
+    box-sizing: content-box;
+    top: 0px;
+    left: 100px;
+    background-color: white;
+}
+
+header h1 {
+    margin: 0;
+    padding: 1em;
+    letter-spacing: -3px;
+    text-transform: uppercase;
+    text-align: left;
+    font-family: 'Six Caps', Arial, sans-serif;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+header h2 {
+    font-family: 'Six Caps', Arial, sans-serif;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("../images/art-background4.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+
+}
+
+article {
+    position: relative;
+    top: 200px;
+    left: 200px;
+
+    width: 30%;
+    margin-top: 3em;
+    padding: 0;
+    background-color: rgba(192, 192, 192, 0.5);
+}
+
+article h2 {
+    background-color: rgba(240, 240, 240, 0.5);
+    margin: 0;
+    padding: 1em;
+}
+
+article p:nth-child(2) {
+    font-weight: bold;
+    font-size: 28px;
+    color: black;
+    margin: 0;
+    padding: 1em;
+}
+
+article p:nth-child(3) {
+    font-style: italic;
+    font-size: 23px;
+    color: white;
+    background-color: rgba(64, 64, 64, 0.5);
+    position: relative;
+
+    top: 0;
+    left: 5cm;
+    width: 70%;
+    margin: 0;
+    padding: 1em;
+}
+
+figure {
+    position: relative;
+    float: left;
+}
+
+footer {
+    background-color: white;
+    color: #cbcbcb;
+    margin-bottom: 0;
+    padding: 1em;
+    max-width: 100%;
+}
+
+.footer img {
+    margin: 3px;
+    width: 45px;
+    height: 45px;
+}
