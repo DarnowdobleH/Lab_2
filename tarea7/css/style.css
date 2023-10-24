@@ -1,0 +1,233 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  font-size: 16px;
+}
+
+/* Estilos para móvil (hasta 500px) */
+@media (max-width: 500px) {
+  body {
+    font-size: 14px;
+  }
+
+}
+
+header {
+  background-image: url("../img/header.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+header nav {
+  padding: 20px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#logo {
+  font-size: 40px;
+}
+
+#links {
+  font-size: 18px;
+}
+
+#links a {
+  margin: 15px;
+}
+
+a {
+  cursor: pointer;
+}
+
+a.button {
+  background-color: #a8a6a1;
+  padding: 10px 15px;
+  border: 2px solid #a8a6a1;
+  border-radius: 10px;
+}
+
+a.button:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: white;
+}
+
+header h1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+/* Cambiar el tamaño de fuente del em y strong para diferentes resoluciones */
+header h1 em {
+  font-size: 1.25em;
+  font-style: normal;
+  letter-spacing: 1px;
+  display: flex;
+}
+
+header h1 strong {
+  font-size: 4.25em;
+  font-style: normal;
+  letter-spacing: 1px;
+  display: flex;
+}
+
+/* Agregar un media query para ajustar el tamaño del encabezado en dispositivos móviles */
+@media (max-width: 500px) {
+  header {
+    height: 300px;
+  }
+  header h1 strong {
+    font-size: 2em;
+    letter-spacing: 4px;
+  }
+  header h1 em {
+    font-size: 1em; /* Modifica el tamaño de fuente para em en dispositivos móviles si es necesario */
+  }
+  /* Reduce el tamaño de fuente de 'comienza contigo' para 500px */
+  header h1 strong small {
+    font-size: 0.2em;
+  }
+}
+
+header h1 a {
+  font-size: 0.9em;
+}
+
+section {
+  margin: 75px 100px;
+  text-align: center;
+}
+
+/* Agregar un media query para ajustar el margen en dispositivos móviles */
+@media (max-width: 500px) {
+  section {
+    margin: 40px 10px;
+  }
+}
+
+#main p {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 125px;
+  width: 70%;
+}
+
+#main h1 {
+  font-size: 1.75em;
+}
+
+p {
+  line-height: 2.25em;
+}
+
+footer {
+  background-color: rgb(45, 45, 45);
+  color: rgba(255, 255, 255, 0.8);
+  padding: 35px;
+  text-align: center;
+}
+
+footer p {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+address {
+  font-style: normal;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+details div {
+  width: calc(50% - 10px);
+  margin: 50px 0;
+}
+
+/* Agregar un media query para organizar las imágenes como columnas y modificar la forma en que se calcula #details div */
+@media (max-width: 500px) {
+  .details {
+    flex-direction: column;
+  }
+}
+
+details img {
+  max-width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+details h1 {
+  font-size: 38px;
+}
+
+details div a.button {
+  color: white;
+}
+
+details div a.button:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: white;
+}
+
+/* Crear un menú para móviles */
+#menu {
+  display: none;
+}
+
+#menu div {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 5px 0;
+}
+
+/* Agregar un media query para ocultar los links y mostrar el menú en dispositivos móviles */
+@media (max-width: 500px) {
+  #links {
+    display: none;
+  }
+
+  #menu {
+    display: block;
+  }
+}
+
+/* Media query para resolución de 1200px */
+@media (max-width: 1200px) {
+  header {
+    height: 500px;
+  }
+  header h1 strong {
+    font-size: 3em;
+  }
+  header h1 em {
+    font-size: 1.1em;
+  }
+  /* Reduce el tamaño de fuente de 'comienza contigo' para 1200px */
+  header h1 strong small {
+    font-size: 0.7em;
+  }
+}
