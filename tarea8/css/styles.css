@@ -1,0 +1,301 @@
+/* Estilos generales para la página */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Estilos para el encabezado */
+header {
+  height: 50px;
+  background: #037AC2;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 10px 20px;
+}
+
+/* Estilos para la navegación dentro del encabezado */
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 10px 20px;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+header a {
+  font-size: 18px;
+
+  color: #FFF;
+
+  text-decoration: none;
+
+  margin-right: 20px;
+
+  display: flex;
+  padding: 0;
+  font-family: 'Tahoma', 'Helvetica', sans-serif;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+
+header li {
+  text-align: center;
+  margin-right: 20px;
+  /* Espacio entre los elementos de la lista (enlaces) */
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+#company {
+  float: left;
+}
+
+#clientInfo {
+  float: right;
+}
+
+/* Estilos para la tabla */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  /* Espacio superior para separar del hr */
+}
+
+table th,
+table td {
+  padding: 8px;
+  text-align: left;
+}
+
+/* Estilo para el hr debajo de #company */
+hr {
+  margin-top: 170px;
+}
+
+/* Estilos para las imágenes dentro de la tabla */
+table img {
+  max-width: 100px;
+  /* Limitar el ancho de las imágenes */
+  height: auto;
+}
+
+/* Estilos para los elementos <em> dentro de la tabla */
+table em {
+  font-style: italic;
+}
+
+.SendButton {
+  display: block;
+  width: 150px;
+  background-color: #0074D9;
+  color: #fff;
+  text-align: center;
+  padding: 10px 20px;
+  border: none;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 0;
+  /* Centrar horizontalmente */
+}
+
+.SendButton:hover {
+  background-color: #0056b3;
+  /* Color de fondo en el estado hover */
+}
+
+/* Estilos generales para el contenedor principal */
+#box {
+  display: flex;
+  align-items: stretch;
+  flex: 1;
+  padding: 20px;
+}
+
+/* Estilos para el 'middle' */
+#middle {
+  padding: 20px;
+  order: 2;
+
+}
+
+/* Estilos para el 'railLeft' */
+#railLeft {
+
+  padding: 20px;
+  order: 1;
+}
+
+/* Estilos para el 'aside' */
+aside {
+
+  padding: 20px;
+  order: 3;
+
+}
+
+/* Estilos para .alertLeft */
+.alertLeft {
+  background-color: #FEF5E7;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 200px;
+  /* Establece el ancho deseado */
+  margin-bottom: 20px;
+  /* Agrega un margen inferior para separar de otras secciones */
+}
+
+/* Estilos para .great ul */
+.great ul {
+  background-color: #F2F4F4;
+  padding: 20px;
+  text-align: left;
+  border-radius: 5px;
+  /* Agrega bordes redondeados */
+  max-width: 200px;
+  /* Limita el ancho máximo */
+  list-style: none;
+  /* Elimina los puntos de la lista */
+  margin: 0;
+}
+
+.great2 h3 {
+  background: #AED6F1;
+  padding: 15px;
+
+}
+
+#recentMessageList {
+  background-color: #F2F4F4;
+  border-radius: 5px;
+  list-style: none;
+  padding: 0;
+
+}
+
+#recentMessageList li {
+  margin-bottom: 20px;
+
+}
+
+#recentMessageList a,
+#recentMessageList p,
+#recentMessageList br {
+  margin: 0;
+  padding: 0;
+  float: center;
+}
+
+.blockIcon {
+  float: left;
+}
+
+/* Estilos para el 'aside' */
+aside {
+  padding: 20px;
+  order: 3;
+  background-color: #f2f2f2;
+}
+
+.great3,
+.great4 {
+  margin-bottom: 20px;
+}
+
+.great3 h3,
+.great4 h3 {
+  background: #AED6F1;
+  color: black;
+  padding: 10px;
+}
+
+.great3 ul,
+.great4 ul {
+  list-style: none;
+  padding: 0;
+}
+
+.great3 li,
+.great4 li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.chNumber {
+  background-color: #0074D9;
+  color: #fff;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  margin-right: 10px;
+}
+
+.boxBook {
+  margin-right: 10px;
+}
+
+.great3 p {
+  color: black;
+  text-decoration: none;
+  font-size: large;
+  float: left;
+}
+
+.great3 p:hover {
+  text-decoration: underline;
+}
+
+.great4 a {
+  color: #037AC2;
+  float: left;
+}
+
+.great4 a:hover {
+  text-decoration: underline;
+}
+
+
+@media (max-width: 768px) {
+  #box {
+    flex-direction: column;
+  }
+
+  /* Dentro de @media (max-width: 768px) */
+  header {
+    flex-direction: column;
+    height: auto;
+  }
+
+  header nav {
+    justify-content: center;
+  }
+
+  .logo {
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  table {
+    overflow-x: auto;
+  }
+
+}
